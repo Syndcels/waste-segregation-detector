@@ -1,0 +1,8 @@
+# Dataset configuration for training
+path: dataset  # dataset root directory
+train: images/train  # train images
+val: images/val      # validation images
+
+# Classes
+nc: 8  # number of classes
+names: ['paper', 'plastic', 'glass', 'metal', 'plastic_bottle', 'glass_bottle', 'biodegradable', 'cardboard']
